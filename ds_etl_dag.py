@@ -20,7 +20,7 @@ dag = DAG(
     schedule_interval=None,
 )
 
-input_folder = '/home/airflow/data'
+input_folder = '/home/airflow/data/dmitry_surname'
 output_folder = '/home/airflow/data'
 input_file = os.path.join(input_folder, 'dmitry_surname.json')
 
